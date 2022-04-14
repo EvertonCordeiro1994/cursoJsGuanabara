@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>curso guanabara aula 8</title>
+  <style> 
+    body{
+background:purple;
+}
+h1{
+color:yellow;
+}
+p{
+color:white;
+}
+</style>
+</head>
+<body id="corpo">
+  <h1 id="titulo">Curso Guanabara, aula 10</h1>
+  <p id="paragrafo"> A aula explicou como funciona o DOM.</p>
+
+  <script >
+    var fundo = prompt("Diga uma cor em inglês, para utilizar no fundo da tela:")
+
+var titulo = prompt("Diga uma cor em inglês, para utilizar no titulo:")
+
+var paragrafo =prompt("Diga uma cor em inglês, para utilizar nos parágrafos:")
+
+
+var f = document.getElementById('corpo')
+
+var t = document.getElementById('titulo')
+
+var p = document.getElementById('paragrafo')
+
+
+
+f.style.background= fundo
+
+t.style.color= titulo
+
+p.style.color= paragrafo
+</script>
+</body>
+</html>

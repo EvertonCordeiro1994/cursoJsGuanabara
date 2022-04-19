@@ -1,0 +1,39 @@
+body{
+background: blue;
+font: normal 15pt Arial;
+}
+
+header{
+ color: black;
+ text-aling: center;
+}
+
+section{
+background: white;
+border-radius: 10px;
+padinng: 15px;
+width: 350px;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0,0,0,365)
+}
+
+footer{
+ color: black;
+ text-aling: center;
+ font-style: italic;
+ margin-left: 120px;
+}
+
+#hora{
+margin-left: 100px;
+font-size: 30px;
+}
+
+
+img{
+width: 320px;
+height: auto;
+border-radius: 150px;
+margin-left: 15px;
+}
+
